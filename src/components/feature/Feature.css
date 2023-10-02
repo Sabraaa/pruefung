@@ -1,5 +1,5 @@
 .feature-container{
-    padding: 12px 24px;
+    padding: 16px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,8 +26,6 @@
 }
 .vertical-line::before{
     content: "";
-    /* position: absolute; */
-    /* left:0; */
     margin-right:10px ;
     height: 8px;
     border-left: 1px solid #bbc3ff9d; 

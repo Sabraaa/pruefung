@@ -15,7 +15,7 @@
 .porsche{
     font-size: 12px;
     color: #fff;
-    padding: 1rem;
+    padding: 16px 30px;
 }
 .color-box{
     margin: 16px 24px;
@@ -34,7 +34,7 @@
     
 }
 .left-box h5{
-    padding: 0 10px;
+    padding: 16px ;
 }
 .left-buttons{
     display: flex;

@@ -21,6 +21,9 @@
     border: 0px solid #000;
     overflow: hidden;
     white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .title-right{
@@ -39,6 +42,12 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #bbc3ff70;
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    font-size: 16px;
+    color: #BBC3FF;
+
 
 }
 .square-plus{
@@ -48,4 +57,26 @@
     display: grid;
     grid-template-columns: 471px;
     grid-template-rows: 60px 60px 60px 60px 60px;
+    margin-bottom: 20px;
+}
+.vertical-right-line{
+    position: relative;
+    
+}
+.vertical-right-line::before{
+    content: "";
+    margin-right:10px ;
+    height: 8px;
+    border-left: 1px solid #bbc3ff9d; 
+}
+.horizonal-right-line{
+    position: relative;
+}
+.horizonal-right-line::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%; 
+    width: 80%; 
+    border-bottom: 1px solid #bbc3ff9d;
 }
