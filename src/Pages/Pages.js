@@ -11,8 +11,7 @@ const Pages = () => {
       <div className="background"></div>
 
       <div className="over-background ">
-        {/* Upper box */}
-        <Upperbox />
+   
 
         {/* Column boxes */}
         <div className="column-boxes">
