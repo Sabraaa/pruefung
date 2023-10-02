@@ -25,7 +25,7 @@
     display: grid; 
     grid-template-rows: 1018;
     grid-template-columns: 468px 946px 468px;
-    gap: 10px;
+    gap: 9px;
 }
 
 
