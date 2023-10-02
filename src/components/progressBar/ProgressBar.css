@@ -1,0 +1,10 @@
+.border{
+background-color: #fff;
+}
+.gradient{
+   height:2px;
+   width:80%;
+   background: rgb(3,232,249);
+   background: linear-gradient(90deg, rgba(3,232,249,1) 0%, rgba(3,87,255,1) 100%);
+
+}

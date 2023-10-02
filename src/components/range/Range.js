@@ -3,17 +3,21 @@ import "./Range.css";
 import Red from "../../assets/red.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
+import ProgresBar from "../progressBar/ProgresBar";
 const Range = () => {
   return (
     <div>
       <div className="range-container">
-        <img className="range-red" src={Red} alt="red" />
+      <div className="range-red">
+
+        <img  src={Red} alt="red" />
+      </div>
         <div className="text-gradient-container">
           <div className="range-text">
             <p>Blender</p>
             <span>7.39</span>
           </div>
-          <div className="gradient">---------</div>
+          <ProgresBar />
         </div>
         <FontAwesomeIcon
           className="range-ellipsis"

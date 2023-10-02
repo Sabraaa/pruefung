@@ -53,20 +53,23 @@ const Rightbox = () => {
           <Level />
         </div>
       </div>
-      <div className="Right-second-title">
-        <p className="title-right">SKILLS</p>
-        <FontAwesomeIcon
-          className="square-plus"
-          icon={faSquarePlus}
-          style={{ color: "#ffffff" }}
-        />
-      </div>
+
       <div>
-        <Range />
-        <Range />
-        <Range />
-        <Range />
-        <Range />
+        <div className="Right-skills-title">
+          <p className="title-right">SKILLS</p>
+          <FontAwesomeIcon
+            className="square-plus"
+            icon={faSquarePlus}
+            style={{ color: "#ffffff" }}
+          />
+        </div>
+        <div className="range-lower-items">
+          <Range />
+          <Range />
+          <Range />
+          <Range />
+          <Range />
+        </div>
       </div>
     </div>
   );

@@ -2,17 +2,23 @@
     height: 1020px;
     width: 471px;
     background-color: #080050da;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.Right-second-title{
+.upper-items{
+    display: grid;
+    grid-template-columns: 471px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+}
+
+.country-date{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.square-plus{
-    border-bottom: 1px solid #bbc3ff70;
-    padding: 16px;
-}
+
 .title-right{
     margin: 0;
     padding: 12px;
@@ -21,10 +27,22 @@
     justify-content: flex-start;
     font-size: 16px;
     color: #BBC3FF;
+    border-bottom: 1px solid #bbc3ff70;
 }
-.country-date{
+.Right-skills-title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #bbc3ff70;
+
+}
+.square-plus{
+    padding: 16px;
+}
+.range-lower-items{
+    display: grid;
+    grid-template-columns: 471px;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    gap:6px;
 }

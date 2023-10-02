@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import "./Level.css";
 
-const Level = () => {
+const Level = ({ title, text }) => {
   return (
-    <div>Level</div>
-  )
-}
+    <div>
+      <div className="level-container">
+        <h5 className="level-title">{title}</h5>
+        <p className="level-text">{text}</p>
+      </div>
+      <div className="level-line"></div>
+    </div>
+  );
+};
 
-export default Level
+export default Level;

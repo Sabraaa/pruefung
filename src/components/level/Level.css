@@ -1,0 +1,18 @@
+.level-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+.level-title{
+    font-size: 16px;
+    color:#BBC3FF;
+}
+.level-text{
+    font-size:12px;
+    color:#fff;
+}
+.level-line{
+    
+}
