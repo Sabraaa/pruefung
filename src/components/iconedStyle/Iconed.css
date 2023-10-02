@@ -1,0 +1,33 @@
+.iconed-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+padding-left: 24px;
+}
+.iconed-container{
+    margin: 0;
+    padding: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.iconed-title{
+font-size: 16px;
+color: #BBC3FF;
+}
+.Iconed-red{
+width: 20px;
+height: 20px;
+padding: 2px;
+}
+.iconed-text-container{
+
+}
+.Iconed-text{
+font-size: 12px;
+color:#fff;
+margin: 0;
+padding: 0;
+}

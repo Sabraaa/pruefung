@@ -21,7 +21,7 @@
     width: 100%;
     display: grid; 
     grid-template-rows: 1020px;
-    grid-template-columns: 471px 471px 471px 471px;
+    grid-template-columns: 471px 954px 471px;
     gap: 12px;
 }
 

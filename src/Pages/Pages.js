@@ -5,6 +5,7 @@ import Feature from "../components/feature/Feature";
 import Upperbox from "../Containers/upper/Upperbox";
 import Leftbox from "../Containers/left/Leftbox";
 import Middle from "../Containers/middleboxes/Middle";
+import Rightbox from "../Containers/right/Rightbox";
 
 const Pages = () => {
   return (
@@ -23,7 +24,10 @@ const Pages = () => {
           {/* Middle boxes */}
           <Middle />
 
-          <div className="right-box"></div>
+          {/* Right one */}
+          <div className="right-box">
+            <Rightbox />
+          </div>
         </div>
       </div>
     </div>
