@@ -8,10 +8,9 @@ const Range = () => {
   return (
     <div>
       <div className="range-container">
-      <div className="range-red">
-
-        <img  src={Red} alt="red" />
-      </div>
+        <div className="range-red">
+          <img src={Red} alt="red" />
+        </div>
         <div className="text-gradient-container">
           <div className="range-text">
             <p>Blender</p>

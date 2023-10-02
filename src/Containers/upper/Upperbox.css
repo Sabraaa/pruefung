@@ -1,11 +1,12 @@
 .upper-box{
     background-color:#080050da;
     height: 48px;
-    width:1920px;
+    /* width:1920; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 1rem; 
+    margin:0;
 
   }
   .upper-box p{

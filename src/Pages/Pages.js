@@ -1,7 +1,5 @@
 import React from "react";
 import "./Pages.css";
-import {} from "react-icons/ri";
-import Feature from "../components/feature/Feature";
 import Upperbox from "../Containers/upper/Upperbox";
 import Leftbox from "../Containers/left/Leftbox";
 import Middle from "../Containers/middleboxes/Middle";

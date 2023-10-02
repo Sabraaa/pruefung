@@ -4,12 +4,12 @@
 }
 .middle-box{
     height: 756px;
-    width: 471px;
+    /* width: 100%; */
     background-color: #080050da;
 }
 .lower-middle-box{
     height: 252px;
-    width: 471px;
+    /* width: 100%; */
     background-color: #080050da;
 }
 .title-resume{

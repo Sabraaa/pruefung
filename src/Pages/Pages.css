@@ -11,18 +11,21 @@
     filter: blur(50px);
     -webkit-filter: blur(50px);
     z-index: -1;
+    margin: 0;
+    padding: 0;
 }
 .over-background{
     z-index: 1;
 }
  
 .column-boxes{
-    padding-top: 12px;
     width: 100%;
+    height: 100%;
+    padding-top: 12px;
     display: grid; 
-    grid-template-rows: 1020px;
-    grid-template-columns: 471px 954px 471px;
-    gap: 12px;
+    grid-template-rows: 1018;
+    grid-template-columns: 468px 948px 468px;
+    gap: 10px;
 }
 
 
