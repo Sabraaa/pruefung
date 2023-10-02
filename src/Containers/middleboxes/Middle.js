@@ -1,29 +1,32 @@
-import React from 'react'
-import "./Middle.css"
-import Feature from "../../components/feature/Feature"
+import React from "react";
+import "./Middle.css";
+import NewProject from "../sampleMiddle/NewProject";
+import NewRecruitment from "../sampleMiddle/NewRecruitment";
+import Resume from "../sampleMiddle/Resume";
 
 const Middle = () => {
   return (
     <div>
-        <div className="middle-boxes">
-            {/* 1 */}
-            <div className="new-project">
-              <p className="title-new-project">NEW PROJECT</p>
-              <Feature title="COUNTRY" text="MAXIMUM BUDGET" />
-              <Feature title="CITY" text="MINIMUM BUDGET" />
-              <Feature title="NATIVE LANGUAGE" text="DEADLINE" />
-              <Feature title="GENDER" text="ATTACHMENT FILE" />
-              <Feature title="MINIMUM EXPERIENCE" text="PROFILE RATING" />
-              <Feature title="FIELD OF ACTIVITY" text="NATIVE LANGUAGE" />
-            </div>
-            {/* 2 */}
-            <div className="new-recruitment"></div>
-            {/* 3 */}
-
-            {/* 4 */}
-          </div>
+      <div className="middle-boxes">
+        {/* 1 */}
+        <div className="middle-box">
+          <NewProject />
+        </div>
+        {/* 2 */}
+        <div className="middle-box">
+          <NewRecruitment />
+        </div>
+        {/* 3 */}
+        <div className="lower-middle-box">
+          <Resume />
+        </div>
+        {/* 4 */}
+        <div className="lower-middle-box">
+          <Resume />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Middle
+export default Middle;

@@ -1,0 +1,74 @@
+.sample-container{
+    position: relative;
+    min-height: 100%;
+}
+.middle-box{
+    height: 756px;
+    width: 471px;
+    background-color: #080050da;
+}
+.lower-middle-box{
+    height: 252px;
+    width: 471px;
+    background-color: #080050da;
+}
+.title-resume{
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #BBC3FF;
+    border-bottom: 1px solid #bbc3ff70;
+}
+.title-new-project{
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #BBC3FF;
+    border-bottom: 1px solid #bbc3ff70;
+}
+.new-project-freelancer-skills{
+    padding: 12px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.new-project-discriptions{
+    padding: 12px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+.new-project-text p{
+    font-size: 12px;
+    color: #fff;
+}
+.middle-custom-line{
+    position: relative;
+}
+.middle-custom-line::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%; 
+    width: 80%; 
+    border-bottom: 1px solid #bbc3ff9d;
+}
+.middle-button{
+    position: absolute;
+    bottom: 0;
+    padding: 10px; 
+    width: 100%;
+
+}
+.middle-button h5{
+    padding-left: 165px;
+    margin: 12px;
+}

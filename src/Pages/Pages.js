@@ -12,7 +12,6 @@ const Pages = () => {
       <div className="background"></div>
 
       <div className="over-background ">
-
         {/* Upper box */}
         <Upperbox />
 
@@ -22,7 +21,7 @@ const Pages = () => {
           <Leftbox />
 
           {/* Middle boxes */}
-          <Middle/>
+          <Middle />
 
           <div className="right-box"></div>
         </div>

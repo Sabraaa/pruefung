@@ -3,19 +3,5 @@
     display: grid;
     grid-template-columns: 471px 471px;
     grid-template-rows: 756px 252px;
-}
-.new-project{
-    height: 756px;
-    width: 471px;
-    background-color: #080050;
-}
-.title-new-project{
-    margin: 0;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 16px;
-    color: #BBC3FF;
-    border-bottom: 1px solid #bbc3ff9d;
+    gap:12px;
 }

@@ -4,12 +4,12 @@ import "./Feature.css";
 const Feature = ({ title, text }) => {
   return (
     <div>
-      <div>
-        <div>
+      <div className="feature-container">
+        <div className="feature-title" >
           <p> {title}</p>
-          <div className="vertical-line"></div>
         </div>
-        <div>
+        <div className="feature-text">
+          <div className="vertical-line"></div>
           <p> {text}</p>
         </div>
       </div>
