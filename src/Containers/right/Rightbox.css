@@ -3,6 +3,16 @@
     width: 471px;
     background-color: #080050da;
 }
+.Right-second-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.square-plus{
+    border-bottom: 1px solid #bbc3ff70;
+    padding: 16px;
+}
 .title-right{
     margin: 0;
     padding: 12px;
@@ -11,7 +21,6 @@
     justify-content: flex-start;
     font-size: 16px;
     color: #BBC3FF;
-    border-bottom: 1px solid #bbc3ff70;
 }
 .country-date{
     display: flex;

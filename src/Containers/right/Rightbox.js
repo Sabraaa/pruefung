@@ -3,7 +3,9 @@ import "./Rightbox.css";
 import Iconed from "../../components/iconedStyle/Iconed";
 import NonIconed from "../../components/nonIconedStyle/NonIconed";
 import Level from "../../components/level/Level";
-import Range from "../../components/Range";
+import Range from "../../components/range/Range";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
 
 const Rightbox = () => {
   return (
@@ -22,7 +24,7 @@ const Rightbox = () => {
           <Iconed title="Deutsch" text="NATIVE LANGUAGE" />
           <NonIconed title="17x" text="TOTAL PROJECT" />
         </div>
-        {/* <div>
+        <div>
           <NonIconed title="Male " text="GENDER" />
           <Level />
         </div>
@@ -49,17 +51,23 @@ const Rightbox = () => {
         <div>
           <NonIconed title="@NETFLIX" text="TELEGRAM" />
           <Level />
-        </div> */}
+        </div>
       </div>
-
-      {/* <p className="title-right">SKILLS</p>
+      <div className="Right-second-title">
+        <p className="title-right">SKILLS</p>
+        <FontAwesomeIcon
+          className="square-plus"
+          icon={faSquarePlus}
+          style={{ color: "#ffffff" }}
+        />
+      </div>
       <div>
         <Range />
         <Range />
         <Range />
         <Range />
         <Range />
-      </div> */}
+      </div>
     </div>
   );
 };
