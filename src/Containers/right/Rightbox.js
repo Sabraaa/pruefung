@@ -82,7 +82,7 @@ const Rightbox = () => {
         </div>
         <div className="grid-right">
           <div className="vertical-right-line"></div>
-          <Level title="4.29 / 10" text="QUICK ACTION   " />
+          <Level title="4.29 / 10" text="QUICK ACTION" />
         </div>
       </div>
 
