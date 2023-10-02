@@ -11,46 +11,67 @@ const Rightbox = () => {
   return (
     <div className="rightbox-container">
       <p className="title-right">RESUME</p>
-      <div className="upper-items">
-        <div className="country-date">
+
+      <div className="rightbox-items-wrapper">
+        <div className="grid-right">
           <Iconed title="Switzerland" text="COUNTRY" />
+        </div>
+        <div className="grid-right">
           <NonIconed title="12 Months" text="DATE OF BIRTHDAY" />
         </div>
-        <div className="country-date">
+        <div className="grid-right">
           <Iconed title="Montreux" text="CITY" />
+        </div>
+        <div className="grid-right">
           <NonIconed title="OCT - 1998" text="EXPERIENCE" />
         </div>
-        <div className="country-date">
+        <div className="grid-right">
           <Iconed title="Deutsch" text="NATIVE LANGUAGE" />
+        </div>
+        <div className="grid-right">
           <NonIconed title="17x" text="TOTAL PROJECT" />
         </div>
-        <div>
+        <div className="grid-right">
           <NonIconed title="Male " text="GENDER" />
-          <Level />
         </div>
-        <div>
+        <div className="grid-right">
+          <Level title="0 / 3" text="BLOCK ACCOUNT" />
+        </div>
+        <div className="grid-right">
           <NonIconed title="Switzerland" text="FIELD OF ACTIVITY" />
-          <Level />
         </div>
-        <div>
+        <div className="grid-right">
+          <Level title="11" text="LEVEL"  />
+        </div>
+        <div className="grid-right">
           <NonIconed title="$ 1548.15" text="EARNINGS" />
-          <Level />
         </div>
-        <div>
+        <div className="grid-right">
+          <Level title="6.21 / 10" text="ETHICS"/>
+        </div>
+        <div className="grid-right">
           <Iconed title="+974306451483" text="PHONE NUMBER" />
-          <Level />
         </div>
         <div>
+          <Level title="7.16 / 10" text="BEHAVIOR" />
+        </div>
+        <div className="grid-right">
           <Iconed title="+974306451483" text="WHATSAPP" />
-          <Level />
         </div>
-        <div>
+        <div className="grid-right">
+          <Level title="8.61 / 10" text="DICIPLINE" />
+        </div>
+        <div className="grid-right">
           <NonIconed title="8.26 / 10" text="PROFILE RATING" />
-          <Level />
         </div>
-        <div>
+        <div className="grid-right">
+          <Level title="6.31 / 10" text="PATIENCE" />
+        </div>
+        <div className="grid-right">
           <NonIconed title="@NETFLIX" text="TELEGRAM" />
-          <Level />
+        </div>
+        <div className="grid-right">
+          <Level title="4.29 / 10" text="QUICK ACTION   " />
         </div>
       </div>
 

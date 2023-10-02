@@ -1,5 +1,6 @@
 import React from "react";
 import "./Level.css";
+import ProgresBar from "../progressBar/ProgresBar";
 
 const Level = ({ title, text }) => {
   return (
@@ -8,7 +9,7 @@ const Level = ({ title, text }) => {
         <h5 className="level-title">{title}</h5>
         <p className="level-text">{text}</p>
       </div>
-      <div className="level-line"></div>
+      <ProgresBar />
     </div>
   );
 };

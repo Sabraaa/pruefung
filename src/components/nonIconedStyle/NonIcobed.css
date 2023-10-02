@@ -1,9 +1,7 @@
 .noni-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
+    align-items: flex-start;
 }
 .noni-title{
     font-size: 16px;
