@@ -23,8 +23,8 @@
     height: 100%;
     padding-top: 12px;
     display: grid; 
-    grid-template-rows: 1018;
-    grid-template-columns: 468px 946px 468px;
+    grid-template-rows: 1FR;
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 9px;
 }
 

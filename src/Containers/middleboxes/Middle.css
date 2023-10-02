@@ -1,7 +1,8 @@
 
 .middle-boxes{
+    height: 100%;
     display: grid;
-    grid-template-columns: 468px 468px;
-    grid-template-rows: 756px 252px;
-    gap:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    gap:9px;
 }
